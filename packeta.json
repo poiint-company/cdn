@@ -130,6 +130,6 @@
     "format": "ID výdajného miesta",
     "example": "PS123",
     "required": "nie",
-    "info": "ID výdajného miesta. Ak je uvedené, adresa doručenia musí uvádzať skutočnú adresu výdajného miesta."
+    "info": "ID výdajného miesta. Vyplnenie tejto hodnoty značí doručenie na odberné miesto. Používa sa v kombinácii s atribútami pre adresu doručenia - adresa doručenia musí uvádzať adresu výdajného miesta."
   }
 ]
