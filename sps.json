@@ -18,14 +18,14 @@
     "format": "1-35 znakov",
     "example": "Jan",
     "required": "áno",
-    "info": ""
+    "info": "Meno príjemcu."
   },
   {
     "name": "ConsigneeLastName",
     "format": "1-35 znakov",
     "example": "Novak",
     "required": "áno",
-    "info": ""
+    "info": "Priezvisko príjemcu."
   },
   {
     "name": "ConsigneeEmail",
@@ -65,7 +65,7 @@
   {
     "name": "CodAmount",
     "format": "nezáporné desatinné číslo",
-    "example": "30,50",
+    "example": "30.50",
     "required": "nie",
     "info": "Pre CZK sú prípustné len celé čísla, pre iné meny sú prípustné maximálne dve desatinné miesta."
   },
@@ -79,7 +79,7 @@
   {
     "name": "ParcelValueAmount",
     "format": "nezáporné desatinné číslo",
-    "example": "100,50",
+    "example": "100.50",
     "required": "nie",
     "info": "Platia rovnaké pravidlá ako pre CodAmount. Hodnota by mala obsahovať reálnu hodnotu obsahu balíka pre účely poistenia."
   },
@@ -130,6 +130,6 @@
     "format": "ID výdajného miesta",
     "example": "PS123",
     "required": "nie",
-    "info": "ID výdajného miesta"
+    "info": "ID výdajného miesta. Vyplnenie tejto hodnoty značí doručenie na odberné miesto. Používa sa v kombinácii s atribútami pre adresu doručenia - adresa doručenia musí uvádzať adresu výdajného miesta."
   }
 ]
