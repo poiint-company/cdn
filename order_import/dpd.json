@@ -1,10 +1,10 @@
 [
   {
     "name": "CarrierPid",
-    "format": "Číslo",
-    "example": "2",
+    "format": "číslo alebo text",
+    "example": "1",
     "required": "áno",
-    "info": "Identifikátor dopravcu."
+    "info": "Identifikátor dopravcu. V prípade textovej podoby sú povolené hodnoty: DPD, SPS, GLS, ZAS."
   },
   {
     "name": "ConsigneeName",
@@ -95,34 +95,34 @@
     "format": "ISO kód",
     "example": "SK",
     "required": "áno",
-    "info": "Krajina doručenia."
+    "info": "Krajina doručenia. Povinná pri doručení na adresu aj odberné miesto."
   },
   {
     "name": "DeliveryZipCode",
     "format": "platné PSČ",
     "example": "90901",
-    "required": "áno",
+    "required": "nie",
     "info": "PSČ doručenia."
   },
   {
     "name": "DeliveryCity",
-    "format": "1-100 znakov",
+    "format": "1-35 znakov",
     "example": "Skalica",
-    "required": "áno",
+    "required": "nie",
     "info": "Mesto doručenia."
   },
   {
     "name": "DeliveryStreet",
-    "format": "1-100 znakov",
+    "format": "1-35 znakov",
     "example": "Malleho",
-    "required": "áno",
+    "required": "nie",
     "info": "Ulica doručenia."
   },
   {
     "name": "DeliveryHouseNumber",
-    "format": "1-20 znakov",
+    "format": "1-10 znakov",
     "example": "22",
-    "required": "áno",
+    "required": "nie",
     "info": "Číslo domu doručenia."
   },
   {
@@ -130,6 +130,6 @@
     "format": "ID výdajného miesta",
     "example": "PS123",
     "required": "nie",
-    "info": "ID výdajného miesta. Vyplnenie tejto hodnoty značí doručenie na odberné miesto. Používa sa v kombinácii s atribútami pre adresu doručenia - adresa doručenia musí uvádzať adresu výdajného miesta."
+    "info": "ID výdajného miesta. Vyplnenie tejto hodnoty značí doručenie na odberné miesto."
   }
 ]
