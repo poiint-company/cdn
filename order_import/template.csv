@@ -1,3 +1,3 @@
 CarrierPid;ConsigneeName;ConsigneeFirstName;ConsigneeLastName;ConsigneeEmail;ConsigneePhoneNumber;Weight;DeliveryNote;ClientReference;CodAmount;CodCurrency;ParcelValueAmount;ParcelValueCurrency;DeliveryCountry;DeliveryZipCode;DeliveryCity;DeliveryStreet;DeliveryHouseNumber;ParcelShopId
-1;Firma s.r.o.;Jan;Novak;jan.novak@example.com;+421949123123;0.1;Note;REF123;30;EUR;100;EUR;SK;90901;Skalica;Malleho;22;PS123
-1;Firma s.r.o.;Jan;Novak;jan.novak@example.com;+421949123123;0.1;Note;REF123;30;EUR;100;EUR;SK;90901;Skalica;Malleho;22;PS123
+1;Firma s.r.o.;Jan;Novak;jan.novak@example.com;+421949123123;0.1;Note;REF123;30;EUR;100;EUR;SVK;;;;;PS123
+1;Firma s.r.o.;Jan;Novak;jan.novak@example.com;+421949123123;0.1;Note;REF123;30;EUR;100;EUR;SVK;;;;;PS123
