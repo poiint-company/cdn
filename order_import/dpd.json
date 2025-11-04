@@ -92,8 +92,8 @@
   },
   {
     "name": "DeliveryCountry",
-    "format": "ISO kód",
-    "example": "SK",
+    "format": "Alpha-3 ISO kód",
+    "example": "SVK",
     "required": "áno",
     "info": "Krajina doručenia. Povinná pri doručení na adresu aj odberné miesto."
   },
