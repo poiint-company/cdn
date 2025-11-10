@@ -91,6 +91,13 @@
     "info": "Mena hodnoty balíka."
   },
   {
+    "name": "Currency",
+    "format": "ISO 4217 currency code",
+    "example": "EUR",
+    "required": "nie",
+    "info": "Spoločná mena pre dobierku a hodnotu balíka. Mena uvedená v stĺpcoch CodCurrency a ParcelValueCurrency má vyššiu prioritu."
+  },
+  {
     "name": "DeliveryCountry",
     "format": "Alpha-3 ISO kód",
     "example": "SVK",
