@@ -108,28 +108,28 @@
     "name": "DeliveryZipCode",
     "format": "platné PSČ",
     "example": "90901",
-    "required": "nie",
+    "required": "áno",
     "info": "PSČ doručenia."
   },
   {
     "name": "DeliveryCity",
     "format": "1-32 znakov",
     "example": "Skalica",
-    "required": "nie",
+    "required": "áno",
     "info": "Mesto doručenia."
   },
   {
     "name": "DeliveryStreet",
     "format": "1-32 znakov",
     "example": "Malleho",
-    "required": "nie",
+    "required": "áno",
     "info": "Ulica doručenia."
   },
   {
     "name": "DeliveryHouseNumber",
     "format": "1-16 znakov",
     "example": "22",
-    "required": "nie",
+    "required": "áno",
     "info": "Číslo domu doručenia."
   },
   {
